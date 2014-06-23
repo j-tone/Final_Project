@@ -27,6 +27,12 @@ void Hero() //Ian's code
 {
   Character Hero;
   
+  	cout << "Is a potential loss of gravity a problem?" << endl;
+	cout << "Do you have affiliations with the military?" << endl;
+	cout << "Do you know what E = m c ^2 means?" << endl;
+	cout << "Are your parents alive?" << endl;
+	cout << "Brute strength or srategy?" << endl;
+	cout << "Are your heroics for personal gain or for the greater good?" << endl;
 }
 
 void Villain() //Justin's code
