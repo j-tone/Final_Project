@@ -5,6 +5,9 @@
 #include "Character.h"
 using namespace std;
 
+void Hero();
+void Villain();
+
 int main()
 {
 	string answer;
