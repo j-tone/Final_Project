@@ -40,5 +40,7 @@ void Hero() //Ian's code
 
 void Villain() //Justin's code
 {
-  Character Villain
+	Character Villain;
+
+
 }
