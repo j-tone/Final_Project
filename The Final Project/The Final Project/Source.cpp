@@ -30,14 +30,75 @@ int main()
 
 void Hero() //Ian's code
 {
-  Character Hero;
-  
-  	cout << "Is a potential loss of gravity a problem?" << endl;//if no(starwars, star trek, marvel)
-	cout << "Do you have affiliations with the military?" << endl;
-	cout << "Do you know what E = m c ^2 means?" << endl;
-	cout << "Are your parents alive?" << endl;
-	cout << "Brute strength or srategy?" << endl;
-	cout << "Are your heroics for personal gain or for the greater good?" << endl;
+int exists = 1;
+	do{
+		Character Hero;
+
+		vector<Character> UsersHero;
+		vector<string> questions;
+		string line;
+		string HeroFileBase = ("C:\\Users\\Ian\\CS172\\");
+		ifstream HeroNames(HeroFileBase + "Heroes.txt");
+		int c = 2;
+
+		if (!HeroNames)
+		{
+			cout << "You are not worth of being a Hero. File wont open." << endl;
+		}
+
+		while (getline(HeroNames, line))
+		{
+			if ((c % 2) == 0)
+			{
+				Hero.setName(line);
+				c++;
+			}
+			else
+			{
+				Hero.setBar(line);
+				UsersHero.push_back(Hero);
+				c++;
+			}
+		}
+
+		HeroNames.clear();
+		HeroNames.close();
+
+		ifstream HeroQuestions(HeroFileBase + "HeroesQuestions.txt");
+		vector <char> FirstA, SecondA;
+
+		while (getline(HeroQuestions, line))
+		{
+			questions.push_back(line);
+			int Y = line.size() - 8;
+			int N = line.size() - 3;
+			FirstA.push_back(line.at(Y));
+			SecondA.push_back(line.at(N));
+		}
+
+		HeroQuestions.clear();
+		HeroQuestions.close();
+
+		for (int i = 0; i < questions.size(); i++)
+		{
+			cout << questions[i] << endl;
+			makeAChoice(FirstA, SecondA, Hero, i);
+		}
+
+		evaluation(Hero, UsersHero);
+		cout << endl;
+		if (Hero.getName() == " ")
+		{
+			cout << "There is not a hero in our database that fits your data" << endl;
+			cout << "Try again" << endl;
+			Hero.setBar(" ");
+		}
+		else
+		{
+			cout << "Your heroic doppleganger is: " << Hero.getName() << "!" << endl;
+			exists--;
+		}
+	} while (exists = 1);
 }
 
 void Villain() //Justin's code
