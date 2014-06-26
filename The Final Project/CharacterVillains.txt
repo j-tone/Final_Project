@@ -1,29 +1,51 @@
 Senator Palpatine/Darth Sideous
 111111
+Lucius Malfoy
+111112
+Voldemort
+111121
+Loki
+111122
 Lex Luther
 111211
 Gideon (from Scott Pilgrim)
 111212
+Poison Ivy
+111221
+Agent Smith (Matrix)
+111222
+Fire Lord Ozai
+112111
 Bane
 112112
 General Zodd
 112121
+The Lizard
+112122
 Catwoman
 112211
 Boba Fett
 112212
 Ra's Al Ghul
 112221
+Marvin The Martian
+112222
 Dooku
 121111
-Vader**
+Cutler Beckett
+121112
+Vader
 121121
-Saruman**
-121121
+Ringwraith
+121122
+Professor Quirrell
+121211
 Syndrome
 121212
 Doc Oc
 121221
+Saruman
+121222
 Green Goblin
 122111
 Stormtrooper
@@ -32,37 +54,14 @@ SandMan
 122121
 Magneto
 122122
-GlaD0s
-122
 Jango Fett
 122211
+Denethor
+122212
+GlaD0s
+122221
 Mystique
 122222
-Lucius Malfoy
-11
-Loki
-11
-Voldemort
-11
-Bellatrix Lestrange
-11
-Wormtongue
-11
-Denethor
-12
-Professor Quirrell
-12
-Cutler Beckett
-11
-General Greivous
-12
-President Snow
-11
-Ringwraith
-12
-Fire Lord Ozai
-11
-
 Jafar
 211111
 Wario
@@ -79,7 +78,6 @@ Sauron
 211221
 King Frederick
 211222
-
 Witch King
 212111
 Anonymous Pirate
@@ -96,38 +94,35 @@ White Witch
 212221
 Khan
 212222
-
-The Joker
-222
-
-Maleficent
-22
-Nero
-2
-The Riddler
-2
-
+The Red Queen
+221111
 Princess Azula
-2
-Two-Face
-2
-Captain Davy Jones
-2
-Gollum
-2
-Venom
-2
-Scarecrow
-2
-Smaug
-2
-Thanos
-2
-Malekieth
-2
-Red Skull
-2
-Moriarty
-2
+221112
 Electro
-2
+221121
+Thanos
+221122
+Scarecrow
+221211
+The Riddler
+221212
+Gollum
+221221
+Captain Davy Jones
+221222
+Maleficent
+222111
+Sledge (From Borderlands)
+222112
+Nero (Star Trek)
+222122
+Ridley (Metroid)
+222121
+Moriarty
+222211
+The Joker
+222212
+Two-Face
+222221
+Red Skull
+222222

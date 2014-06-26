@@ -1,0 +1,6 @@
+Do you have a vision of building something better,or of destroying what's already here? (b, d)
+Were you always bad, or were you good once? (b, g)
+Would you rather gain power for yourself, or take down everyone else who's powerful? (g, t)
+Do you feel more in tune with powers of force and brawn, or in powers of cunning and strategy? (f, c)
+Are you completely human? (y, n)
+Would you most likely be defeated by one hero, or by multiple heroes? (1, m)
