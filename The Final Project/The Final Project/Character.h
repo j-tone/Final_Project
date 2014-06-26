@@ -17,6 +17,7 @@ public:
 	string getName()const;
 	void setName(string name);
 	string getBarcode()const;
+	void setBar(string barcode);
 	void answer1();
 	void answer2();
 

@@ -23,6 +23,9 @@ string Character::getName()const{
 void Character::setName(string name){
 	this->name = name;
 }
+void Character::setBar(string barcode){
+	this->barcode = barcode;
+}
 string Character::getBarcode()const{
 	return barcode;
 }
@@ -34,7 +37,7 @@ void Character::answer2(){
 }
 
 bool Character::operator==(const Character &secondC){
-	if (secondC.getBarcode == barcode){
+	if (secondC.getBarcode() == barcode){
 		return true;
 	}
 	else

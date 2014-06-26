@@ -41,6 +41,24 @@ void Hero() //Ian's code
 void Villain() //Justin's code
 {
 	Character Villain;
-
+	vector<Character> storedCharacters;
+	string line;
+	ifstream file("C:\\Users\\Justin\\Documents\\GitHub\\Final_Project\\The Final Project\\CharacterVillains.txt");
+	int c = 2;
+	Character currCharacter;
+	if (!file){
+		cout << "Can't open the fricken damn file." << endl;
+	}
+	while (getline(file, line)){
+		if ((c % 2) == 0){
+			currCharacter.setName(line);
+			c++;
+		}
+		else{
+			currCharacter.setBar(line);
+			storedCharacters.push_back(currCharacter);
+			c++;
+		}
+	}
 
 }
